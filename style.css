@@ -49,6 +49,15 @@ button {
     align-items: center;
     height: 50vh; /* Центрирование текста на половине экрана */
 }
+#top-gif {
+    position: absolute;
+    top: 20px; /* Отступ сверху */
+    left: 50%;
+    transform: translateX(-50%); /* Выравнивание по центру */
+    width: 150px; /* Размер (можешь изменить) */
+    height: auto;
+}
+
 
 button:hover {
     transform: scale(1.1);
