@@ -1,0 +1,65 @@
+/* Фон и текст */
+body {
+    background-color: #ff0; /* Американский розовый */
+    color: white;
+    text-align: center;
+    font-family: "Press Start 2P", cursive; /* Пиксельный шрифт */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    font-size: 24px;
+    text-shadow: 2px 2px 4px black;
+}
+
+p {
+    font-size: 18px;
+    max-width: 80%;
+}
+
+button {
+    background-color: white;
+    color: #ff033e;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: transform 0.2s;
+}
+ #message-screen p {
+    color: black; /* Меняет цвет текста на черный */
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Анимация сердечек ❤️ */
+.heart {
+    position: absolute;
+    font-size: 30px;
+    color: white; /* Белые сердечки, если хочешь красные - поменяй на red */
+    animation: float 3s linear infinite, explode 0.3s ease-out 3s forwards;
+}
+
+@keyframes float {
+    0% { transform: translateY(0) scale(1); opacity: 1; }
+    100% { transform: translateY(-100vh) scale(1.5); opacity: 0; }
+}
+
+@keyframes explode {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(3); opacity: 0; }
+}
