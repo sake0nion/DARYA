@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поздравление от Sake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Фоновая музыка -->
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Первая страница с кнопкой -->
+    <div id="welcome-screen">
+        <h1>Поздравление от Sake</h1>
+        <button id="open-btn">Открыть</button>
+    </div>
+
+    <!-- Вторая страница с поздравлением -->
+    <div id="message-screen" class="hidden">
+        <h2>С 8 Марта, Жадыра! 💖</h2>
+        <p>Дорогая Жадыра, поздравляю тебя с этим прекрасным днем! Пусть в твоей жизни всегда будет счастье, любовь и улыбки!💐  
+        </p>
+    </div>
+
+    <!-- Контейнер для анимации сердечек -->
+    <div id="hearts-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
