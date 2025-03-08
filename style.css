@@ -3,7 +3,7 @@ body {
     background-color: #ff0; /* Американский розовый */
     color: white;
     text-align: center;
-    font-family: "Press Start 2P", cursive; /* Пиксельный шрифт */
+    font-family: "Arial", cursive; /* Пиксельный шрифт */
     display: flex;
     flex-direction: column;
     align-items: center;
