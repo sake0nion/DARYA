@@ -42,6 +42,14 @@ button {
     color: black; /* Меняет цвет текста на черный */
 }
 
+#message-screen p {
+    text-align: center; /* Выравнивание текста по центру */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Центрирование текста на половине экрана */
+}
+
 button:hover {
     transform: scale(1.1);
 }
