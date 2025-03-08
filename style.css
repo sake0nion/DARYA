@@ -58,6 +58,9 @@ button {
     height: auto;
 }
 
+#message-screen h2 {
+    margin-top: 60px; /* Отступ сверху, увеличь значение, если нужно ниже */
+}
 
 button:hover {
     transform: scale(1.1);
