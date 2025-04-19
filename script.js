@@ -19,3 +19,17 @@ function createHeart() {
 
 // Создаём сердечки каждую 0.2 секунды
 setInterval(createHeart, 200);
+// Копирование ссылки
+document.getElementById("copy-link").addEventListener("click", function () {
+    const url = "https://sake-gift-note.github.io";
+    navigator.clipboard.writeText(url).then(() => {
+        const msg = document.getElementById("copy-success");
+        msg.classList.remove("hidden");
+        setTimeout(() => msg.classList.add("hidden"), 2000);
+    });
+});
+
+// Переход по ссылке (можно заменить на заметку)
+document.getElementById("view-gift").addEventListener("click", function () {
+    window.open("https://sake-gift-note.github.io", "_blank");
+});
