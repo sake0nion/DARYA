@@ -76,7 +76,7 @@ button:hover {
 
 #congrats-gif {
     position: absolute;
-    bottom: 20px; /* Расположение внизу */
+    bottom: 50px; /* Расположение внизу */
     left: 50%;
     transform: translateX(-50%); /* Выравнивание по центру */
     width: 100px; /* Размер (можешь изменить) */
