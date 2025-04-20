@@ -21,7 +21,7 @@ function createHeart() {
 setInterval(createHeart, 200);
 // Копирование ссылки
 document.getElementById("copy-link").addEventListener("click", function () {
-    const url = "https://sake-gift-note.github.io";
+    const url = "https://sake0nion.github.io/DARYA-BOSS/";
     navigator.clipboard.writeText(url).then(() => {
         const msg = document.getElementById("copy-success");
         msg.classList.remove("hidden");
