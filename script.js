@@ -31,5 +31,5 @@ document.getElementById("copy-link").addEventListener("click", function () {
 
 // Переход по ссылке (можно заменить на заметку)
 document.getElementById("view-gift").addEventListener("click", function () {
-    window.open("https://sake-gift-note.github.io", "_blank");
+    window.open("https://sake0nion.github.io/DARYA-BOSS/", "_blank");
 });
